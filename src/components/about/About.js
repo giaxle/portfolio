@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
 import style from './about.module.scss';
-import profilePic from '../../assets//images/profile-pic.png'
 import skillsData from '../../assets/skillsData';
 
 const About = () => {
@@ -14,11 +13,10 @@ const About = () => {
     return (
         <>
             <div id='about' className={style.aboutContainer}>
-                {/* <img id='about' className={style.picture} src={profilePic} alt='profile-pic'/> */}
                 <div className={style.title}>About Me</div>
                 <hr/>
-                <div className={style.aboutMeContent}>
-                    My name is <strong>Gia Huy Le</strong>! I'm a self-taught full-stack developer. I love a challenge and enjoy problem solving. My current endeavors are focused in JavaScript and React, but I'm always open to learning other technologies.
+                <div className={style.about}>
+                    I'm <strong>Gia Huy Le</strong>! I'm a self-taught full-stack developer. I love a challenge and enjoy problem solving. My current endeavors are focused in JavaScript and React, but I'm always open to learning other technologies.
                     <br/>
                     <br/>
                     Aside from that, my hobbies include mountain biking, weight lifting, piano, reading manga/comics, tinkering with PCs, and playing PC games.
