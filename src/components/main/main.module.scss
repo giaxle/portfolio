@@ -1,0 +1,23 @@
+@use '../../var';
+
+.mainContainer {
+    animation: fadeIn 0.5s;
+}
+
+.main {
+    margin-left: 15vw;
+    padding: 1rem;
+    background-color: var.$primary-color;
+    color: var.$secondary-color;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main {
+        margin: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
