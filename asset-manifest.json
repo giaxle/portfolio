@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6a4254ac.css",
-    "main.js": "/portfolio/static/js/main.dd1f8622.js",
+    "main.css": "/portfolio/static/css/main.d321bd26.css",
+    "main.js": "/portfolio/static/js/main.d0a2062f.js",
     "static/media/fake-restaurant-page.png": "/portfolio/static/media/fake-restaurant-page.10b91cd7d2e5281f738b.png",
     "static/media/linux-original.svg": "/portfolio/static/media/linux-original.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
     "static/media/countryinfoapp.png": "/portfolio/static/media/countryinfoapp.5959877fc8fa3fea06d5.png",
-    "static/media/profile-pic.png": "/portfolio/static/media/profile-pic.e6db1f247cd6117f869e.png",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.b25c05ca180170a89dac.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.3408f296d70d60905c27.png",
     "static/media/tic-tac-toe.png": "/portfolio/static/media/tic-tac-toe.3d62ad1d3e66230c3e8f.png",
@@ -22,11 +21,11 @@
     "static/media/webpack-original.svg": "/portfolio/static/media/webpack-original.8ed2785e6fb39bf5258a6b702b306bb6.svg",
     "static/media/npm-original-wordmark.svg": "/portfolio/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/menu-icon.svg": "/portfolio/static/media/menu-icon.7ad44f1b5340164409362fcd80e8545e.svg",
-    "main.6a4254ac.css.map": "/portfolio/static/css/main.6a4254ac.css.map",
-    "main.dd1f8622.js.map": "/portfolio/static/js/main.dd1f8622.js.map"
+    "main.d321bd26.css.map": "/portfolio/static/css/main.d321bd26.css.map",
+    "main.d0a2062f.js.map": "/portfolio/static/js/main.d0a2062f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a4254ac.css",
-    "static/js/main.dd1f8622.js"
+    "static/css/main.d321bd26.css",
+    "static/js/main.d0a2062f.js"
   ]
 }
