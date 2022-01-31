@@ -10,8 +10,8 @@ const data = [
         name: "Portfolio Website",
         tech: "React, HTML, CSS, emailJs, react-router-dom, Sass",
         about: "You're already here. Look around!",
-        live: "",
-        repo: "",
+        live: "https://giaxle.github.io/portfolio/",
+        repo: "https://github.com/giaxle/portfolio",
         img: portfolio
     },
     {   

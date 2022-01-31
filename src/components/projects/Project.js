@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     return (
         <>
             <div className={style.project}>
-                <img className={style.projectImg} src={project.img} />
+                <img className={style.projectImg} src={project.img} alt={project.name}/>
                 <div className={style.projectContainer}>
                     <div className={style.projectInfo}>
                         <h3 className={style.projectTitle}>{project.name}</h3>
@@ -16,8 +16,16 @@ const Project = ({ project }) => {
                     </div>
                 </div>
                 <div className={style.linkContainer}>
-                    <a href={project.live}>Live</a>
-                    <a href={project.repo}>Repo</a>
+                    <a
+                        href={project.live}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >Live</a>
+                    <a 
+                        href={project.repo}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >Repo</a>
                 </div>
             </div>
         </>
