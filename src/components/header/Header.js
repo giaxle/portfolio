@@ -16,7 +16,7 @@ const Header = () => {
     return(
         <>
             <nav>
-                <h1><Link className={style.link} to='/portfolio'>GHL</Link></h1>
+                <h1><Link className={style.link} to='/'>GHL</Link></h1>
                 <ul className={toggle?style.show:null}>
                     <li><a href="#about">About<div className={style.toggle} onClick={toggleNav}></div></a></li>
                     <li><a href="#projects">Projects<div className={style.toggle} onClick={toggleNav}></div></a></li>
