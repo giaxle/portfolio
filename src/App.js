@@ -7,10 +7,10 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className={styles.App}>
-        <Routes>
+      <Routes>
           <Route path="/" element={<FrontPage />} />
           <Route path="/main" element={<Main /> } />
-        </Routes>
+      </Routes>
     </div>
   );
 }

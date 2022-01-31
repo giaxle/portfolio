@@ -1,8 +1,11 @@
 import React from "react";
 import emailjs from 'emailjs-com';
 import style from './contact.module.scss';
+import { useState } from "react/cjs/react.development";
 
 const Contact = () => {
+
+    // const [alert, setAlert] = useState('')
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -10,8 +13,10 @@ const Contact = () => {
         emailjs.sendForm('service_wrc1itr', 'portfolio_template', e.target, process.env.REACT_APP_USER_ID)
         .then((result) => {
             console.log(result.text);
+            alert('Your message has been successfully sent!')
         }, (error) => {
             console.log(error.text);
+            alert('There was an error! Try again later.')
         });
 
         e.target.reset();
