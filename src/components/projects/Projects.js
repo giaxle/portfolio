@@ -1,29 +1,25 @@
-import React from 'react';
-import style from './projects.module.scss';
-import Project from './Project';
-import data from '../../assets/projectData';
+import React from "react";
+import style from "./projects.module.scss";
+import Project from "./Project";
+import data from "../../assets/projectData";
 
 const Projects = () => {
-    return (
-        <>
-            <div className={style.projects}>
-                <div id='projects' className={style.title}>
-                    My Projects
-                </div>
-                <hr />
-                <div className={style.projectsContainer}>
-                    {
-                        data.map(project => {
-                            return (
-                                    <Project key={project.id} project={project}/>
-                            )
-                        })
-                    }
-                </div>
-            </div>
-        </>
-        
-    )
-}
+  const title = "< Projects />";
 
-export default Projects
+  return (
+    <>
+      <div className={style.projects}>
+        <div id="projects" className={style.title}>
+          {title}
+        </div>
+        <div className={style.projectsContainer}>
+          {data.map((project, i) => {
+            return <Project key={i} project={project} />;
+          })}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Projects;

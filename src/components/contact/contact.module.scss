@@ -1,89 +1,90 @@
-@use '../../var';
+@use "../../var";
 
 .contact {
-    margin: 0 auto;
-    width: 90%;
-    min-height: 90vh
+  margin: 0 auto;
+  min-height: 90vh;
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    padding: 1rem;
-    text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 1rem;
+  text-align: center;
 }
 
 .formContainer {
-    width: 60%;
-    margin: 2rem auto;
-    line-height: 3rem;
+  width: 60%;
+  margin: 2rem auto;
+  line-height: 3rem;
 }
 
-.formContainer input, textarea {
-    padding: .7rem;
-    border-radius: 5px;
-    border: 2px solid var.$grey;
-    color: var.$secondary-color;
-    font-weight: bolder;
+.formContainer input,
+textarea {
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 2px solid var.$grey;
+  color: var.$secondary-color;
+  font-weight: bolder;
 }
 
-.formContainer input:focus, textarea:focus {
-    outline: none;
-    border: 2px solid var.$secondary-color; 
+.formContainer input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid var.$secondary-color;
 }
 
 .formContainer label {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .nameEmailContainer {
-    width: 60%;
+  width: 60%;
 }
 
 .inputContainer {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .textareaContainer {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .submit {
-    border: none;
-    border-radius: 5px;
-    border: 1px solid var.$secondary-color;
-    padding: 1rem;
-    margin-top: 1rem;
-    color: var.$secondary-color;
-    font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid var.$secondary-color;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: var.$secondary-color;
+  color: var.$black;
+  font-weight: bolder;
 }
 
 .submit:hover {
-    background-color: var.$black;
-    color: var.$secondary-color;
+  background-color: var.$black;
+  color: var.$secondary-color;
 }
 
 @media screen and (max-width: 1000px) {
-    .formContainer {
-        width: 80%;
-    }
+  .formContainer {
+    width: 80%;
+  }
 
-    .nameEmailContainer {
-        width: 80%;
-    }
+  .nameEmailContainer {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    .formContainer {
-        width: 100%;
-    }
+  .formContainer {
+    width: 100%;
+  }
 
-    .nameEmailContainer {
-        width: 100%;
-    }
+  .nameEmailContainer {
+    width: 100%;
+  }
 }
-

@@ -1,100 +1,102 @@
-@use '../../var';
+@use "../../var";
 
 .aboutContainer {
-    margin: 0 auto;
-    padding: 1rem;
-    width: 90%;
-    text-align: center;
-    max-width: 1920px;
-    border-radius: 1rem;
-    display: block;
-    min-height: 90vh;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1920px;
+  border-radius: 1rem;
+  min-height: 90vh;
 }
 
 .about {
-    padding: 1rem;
-    font-size: 1.5rem;
-    text-align: left;
+  margin-top: 6%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.avatar {
+  border: 2px solid var.$secondary-color;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    padding: 1rem;
-}
-
-.picture {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+  margin-top: 5%;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
 }
 
 .aboutMeContent {
-    margin: auto;
-    width: 80%;
-    margin-top: 3%;
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-    text-align: left;
+  font-size: 1.3rem;
+  width: 600px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 360px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .skillsContainer {
-    margin-top: 5rem;
+  width: 600px;
+  min-width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .email {
-    color: rgb(13, 160, 123);
+  color: rgb(13, 160, 123);
 }
 
 /* css for skills section  */
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    padding-top: 1rem;
-    text-align: center;
-}
-
-.skill {
-    margin-top: 1.5rem;
-    display: flex;
-    width: 300px;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var.$primary-color;
-    color: var.$secondary-color;
-    border: 2px solid var.$grey;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    transition: all .2s ease-in-out;
-}
-
-.skill:hover {
-    transform: scale(1.1);
-}
-
 .iconContainer {
-    margin: 2rem;
-    text-align: center;
-    border-radius: 1rem;
-    font-weight: bold;
+  font-size: 16px;
+  margin: 1rem;
+  width: 120px;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var.$secondary-color;
+  background-color: var.$primary-color;
+  border-top-right-radius: 1rem;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  transform: rotate(10deg);
+}
+
+.iconContainer:hover {
+  transform: scale(1.1);
 }
 
 .icon {
-    width: 50px;
+  width: 70px;
 }
 
 @media screen and (max-width: 1000px) {
-    .aboutContainer {
-        margin-top: 5rem;
-        width: 100%;
-        text-align: center;
-    }
+  .aboutContainer {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+  }
 
-    .aboutMeContent {
-        width: 100%;
-    }
+  .aboutMeContent {
+    margin: 0;
+  }
+
+  .skillsContainer {
+    width: 100%;
+  }
+
+  .iconContainer {
+    transform: none;
+  }
 }
