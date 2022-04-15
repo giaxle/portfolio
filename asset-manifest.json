@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.c07c070c.css",
-    "main.js": "/static/js/main.55f60b5a.js",
+    "main.css": "/static/css/main.a8e8b614.css",
+    "main.js": "/static/js/main.e9569155.js",
     "static/media/headshot.png": "/static/media/headshot.655a7d9142b76b0c0570.png",
+    "static/media/composer.png": "/static/media/composer.f76d70f72893c7399a29.png",
     "static/media/linux-original.svg": "/static/media/linux-original.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
     "static/media/cv-sandbox.png": "/static/media/cv-sandbox.e81949801b8ea19cc859.png",
     "static/media/penguin.png": "/static/media/penguin.fc46a04db8c93bba3b51.png",
     "static/media/portfolio.png": "/static/media/portfolio.b25c05ca180170a89dac.png",
+    "static/media/postgresql-original.svg": "/static/media/postgresql-original.7bc394e86ea1f692d59a3d484ad156af.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/sass-original.svg": "/static/media/sass-original.fb123914eb0e5cc6e0a65e2928d89e2a.svg",
     "static/media/react-original.svg": "/static/media/react-original.4e0c97009b885bfa75c5412262a46f5f.svg",
     "static/media/nodejs-original.svg": "/static/media/nodejs-original.10c9e2aa0ca7edf36fceae25fec038a1.svg",
     "static/media/javascript-original.svg": "/static/media/javascript-original.4c1b5332c1b1057928f6f06cf972c91c.svg",
+    "static/media/typescript-original.svg": "/static/media/typescript-original.8d9549db1a0f5d73a35aa5dab48a09f9.svg",
+    "static/media/express-original.svg": "/static/media/express-original.310b1f06b27ebcbc356b1699dae9e4b6.svg",
     "index.html": "/index.html",
     "static/media/css3-original.svg": "/static/media/css3-original.39769a8bd378bf410d6b381a8d88fa35.svg",
+    "static/media/vscode-original.svg": "/static/media/vscode-original.3e91ebeb866625ec0bf6afdccff4020c.svg",
     "static/media/html5-original.svg": "/static/media/html5-original.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/npm-original-wordmark.svg": "/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/menu-icon.svg": "/static/media/menu-icon.7ad44f1b5340164409362fcd80e8545e.svg",
-    "main.c07c070c.css.map": "/static/css/main.c07c070c.css.map",
-    "main.55f60b5a.js.map": "/static/js/main.55f60b5a.js.map"
+    "main.a8e8b614.css.map": "/static/css/main.a8e8b614.css.map",
+    "main.e9569155.js.map": "/static/js/main.e9569155.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07c070c.css",
-    "static/js/main.55f60b5a.js"
+    "static/css/main.a8e8b614.css",
+    "static/js/main.e9569155.js"
   ]
 }
