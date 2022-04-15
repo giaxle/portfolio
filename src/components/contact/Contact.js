@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import style from "./contact.module.scss";
 
 const Contact = () => {
-  const title = "< Contact />";
+  const header = "< Contact />";
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <>
       <div id="contact" className={style.contact}>
-        <h1 className={style.title}>{title}</h1>
+        <div className={style.contactHeader}>{header}</div>
         <div className={style.formContainer}>
           <form onSubmit={sendEmail}>
             <div className={style.nameEmailContainer}>

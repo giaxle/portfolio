@@ -1,14 +1,12 @@
 @use "../../var";
 
 .mainContainer {
-  animation: fadeIn 0.5s;
 }
 
 .main {
-  margin-left: 12vw;
-  padding: 1rem;
   background-color: var.$primary-color;
   color: var.$secondary-color;
+  animation: fadeIn 0.5s;
 }
 
 @media only screen and (max-width: 1000px) {

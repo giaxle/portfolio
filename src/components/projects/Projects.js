@@ -4,14 +4,12 @@ import Project from "./Project";
 import data from "../../assets/projectData";
 
 const Projects = () => {
-  const title = "< Projects />";
+  const header = "< Projects />";
 
   return (
     <>
-      <div className={style.projects}>
-        <div id="projects" className={style.title}>
-          {title}
-        </div>
+      <div id="projects" className={style.projectsWrapper}>
+        <div className={style.projectHeader}>{header}</div>
         <div className={style.projectsContainer}>
           {data.map((project, i) => {
             return <Project key={i} project={project} />;

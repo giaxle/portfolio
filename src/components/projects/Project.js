@@ -33,14 +33,14 @@ const Project = ({ project }) => {
                 return <li key={i}>{item}</li>;
               })}
             </ul>
-          </div>
-          <div className={style.linkContainer}>
-            <a href={project.live} target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href={project.repo} target="_blank" rel="noopener noreferrer">
-              Repo
-            </a>
+            <div className={style.linkContainer}>
+              <a href={project.live} target="_blank" rel="noopener noreferrer">
+                Live
+              </a>
+              <a href={project.repo} target="_blank" rel="noopener noreferrer">
+                Repo
+              </a>
+            </div>
           </div>
         </div>
       </div>

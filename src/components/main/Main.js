@@ -8,14 +8,12 @@ import style from "./main.module.scss";
 
 const Main = () => {
   return (
-    <div className={style.mainContainer}>
+    <div className={style.main}>
       <Header />
-      <div className={style.main}>
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-      </div>
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 };

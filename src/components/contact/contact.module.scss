@@ -2,20 +2,30 @@
 
 .contact {
   margin: 0 auto;
+  max-width: 1920px;
   min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.title {
+.contactHeader {
+  padding-top: 6rem;
   font-size: 3rem;
-  font-weight: bolder;
-  padding: 1rem;
+  font-weight: 900;
   text-align: center;
+  border-bottom: 10px solid var.$black;
 }
 
 .formContainer {
-  width: 60%;
+  padding: 1rem;
+  max-width: 1000px;
+  width: 100%;
   margin: 2rem auto;
   line-height: 3rem;
+  background-color: var.$black;
+  border-radius: 5px;
+  color: var.$grey;
 }
 
 .formContainer input,
@@ -71,7 +81,7 @@ textarea:focus {
 
 @media screen and (max-width: 1000px) {
   .formContainer {
-    width: 80%;
+    width: 95%;
   }
 
   .nameEmailContainer {

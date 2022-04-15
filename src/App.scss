@@ -1,12 +1,12 @@
-@use './var';
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto+Slab:wght@300&display=swap');
+@use "./var";
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Roboto+Slab:wght@300&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-color: var(--main-color);
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 html {
@@ -16,11 +16,11 @@ html {
 }
 
 hr {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 ul {
-  list-style-type: none;
+  // list-style-type: none;
 }
 
 .App {
@@ -30,6 +30,10 @@ ul {
 }
 
 @keyframes fadein {
-  from {opacity: 0;}
-  to {opacity: 1}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
